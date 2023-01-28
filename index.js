@@ -122,7 +122,7 @@ function changeImage() {
     if (im == "./Untitled.png") {
         document.getElementById("demo").src = "./sm.png";
     } else {
-        document.getElementById("demo").src = "./Untitled.png";
+        document.getElementById("demo").src = "./female.png";
     }
 }
 
