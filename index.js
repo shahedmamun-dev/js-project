@@ -135,52 +135,67 @@ function hide () {
 }
 
 
-var banana = {  //object
-    color: "Yellow",
-    size: "long",
-    quanity: 3,
-    isSweet: true,
-};
+// var banana = {  //object
+//     color: "Yellow",
+//     size: "long",
+//     quanity: 3,
+//     isSweet: true,
+// };
 
-document.getElementById("demo2").innerHTML = 
-"Banana <br>" +
-"Color: " + banana.color + "<br>" +
-"Size: " + banana.size + "<br>" +
-"Quantity: " + banana.quanity + "<br>" +
-"Dose it taste sweet: " + banana.isSweet;
+// document.getElementById("demo2").innerHTML = 
+// "Banana <br>" +
+// "Color: " + banana.color + "<br>" +
+// "Size: " + banana.size + "<br>" +
+// "Quantity: " + banana.quanity + "<br>" +
+// "Dose it taste sweet: " + banana.isSweet;
 
-var varibale1 =["Tomatoe", "LadiesFinger", "Law"]; // areay
+// var varibale1 =["Tomatoe", "LadiesFinger", "Law"]; // areay
 
-document.getElementById("demo3").innerHTML = "No 1:" + varibale1[0];
+// document.getElementById("demo3").innerHTML = "No 1:" + varibale1[0];
 
-function addNumbers(num1, num2) {
-    var sum  = num1 + num2;
-    return sum;
-}
+// function addNumbers(num1, num2) {
+//     var sum  = num1 + num2;
+//     return sum;
+// }
 
-document.getElementById("demo4").innerHTML = addNumbers(7, 5);
+// document.getElementById("demo4").innerHTML = addNumbers(7, 5);
 
-function getFullName(firstName, lastName) {
-    return firstName + " " + lastName;
-}
+// function getFullName(firstName, lastName) {
+//     return firstName + " " + lastName;
+// }
 
-document.getElementById("demo5").innerHTML = getFullName("Shahed", "Mamun");
+// document.getElementById("demo5").innerHTML = getFullName("Shahed", "Mamun");
 
-function toMiles(kilometer){
-    var miles = kilometer * 0.62137;
-    return kilometer + " Km/s " + "equals " + miles + " mls/s.";
-}
+// function toMiles(kilometer){
+//     var miles = kilometer * 0.62137;
+//     return kilometer + " Km/s " + "equals " + miles + " mls/s.";
+// }
 
-document.getElementById("demo6").innerHTML = toMiles(7);
+// document.getElementById("demo6").innerHTML = toMiles(7);
 
-var person2 = {
-    name : "John Doe",
-    age : 30,
-    hobbies: ["coding", "playing", "running"]
-}
+// var person2 = {
+//     name : "John Doe",
+//     age : 30,
+//     hobbies: ["coding", "playing", "running"]
+// }
 
-document.getElementById("demo7").innerHTML = 
-person2["name"] + "<br>" +
-person2["age"] + "<br>" +
-person2["hobbies"][0];
+// document.getElementById("demo7").innerHTML = 
+// person2["name"] + "<br>" +
+// person2["age"] + "<br>" +
+// person2["hobbies"][0];
+
+// var fruits = { /*this is an opject contain other object inside*/
+//     mango: {
+//         color: "yellow",
+//         taste: "sweet"
+//     },
+//     apple: {
+//         color: "red",
+//         taste: "sweet"
+//     }
+// }
+
+// document.getElementById("demo2").innerHTML = 
+// fruits["mango"]["color"] + "<br>" +
+// fruits["apple"]["taste"];
 
