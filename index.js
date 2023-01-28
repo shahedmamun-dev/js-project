@@ -116,13 +116,13 @@ Hello.
 
 
 function changeImage() {
- var im =   document.getElementById("demo").src = "./sm.png";
+ var im =   document.getElementById("demo").src = "sm.png";
     document.getElementById("demo").style.border = "10px solid gray";
     Document.getElementById("demo").style.float = "right";
     if (im == "./Untitled.png") {
-        document.getElementById("demo").src = "./sm.png";
+        document.getElementById("demo").src = "sm.png";
     } else {
-        document.getElementById("demo").src = "./female.png";
+        document.getElementById("demo").src = "female.png";
     }
 }
 
